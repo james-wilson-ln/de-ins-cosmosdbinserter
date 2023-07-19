@@ -1,10 +1,11 @@
 package com.relx.dataeng;
 
-import com.azure.cosmos.*;
-import com.azure.cosmos.models.*;
+import com.azure.cosmos.CosmosClient;
+import com.azure.cosmos.CosmosClientBuilder;
+import com.azure.cosmos.CosmosContainer;
+import com.azure.cosmos.CosmosDatabase;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 
 import java.io.IOException;
 import java.nio.file.Files;
